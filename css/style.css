@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: black;
+    /* background-image: url(/imagens/mln.webp); */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+h1{
+    cursor: context-menu;
+}
+.header{
+    width: 100%;
+    min-height: 100px;
+    background-color: rgb(17, 17, 17);
+    border-bottom: 0.5px solid white;
+    /* display: flex; */
+    position: fixed;
+    /* flex-wrap: wrap; */
+    padding: 20px 2%;
+}
+
+
+
+.starWars{
+    /* text-align: center; */
+    float: left;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    /* border-bottom: 0.5px solid white; */
+    font-size: 50px;
+    color: white;
+    padding: 0 10px;
+    cursor: context-menu;
+}
+
+.header ul{
+    float: right;
+    /* background-color: aqua; */
+    padding: 5px 5px;
+    width: 350px;
+    /* position: absolute; */
+    /* right: 0;
+    bottom: 0; */
+    display: flex;
+    /* height: 90px; */
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+
+.header ul li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-size: 20px;
+    list-style: none;
+    /* background-color: rebeccapurple; */
+    /* height: 50px; */
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.header ul li a{
+    border-radius: 8px 8px 0px 0px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    /* background-color: brown; */
+}
+.header ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.336);
+    border-radius: 8px 8px 8px 9px;
+}
+
+.banner{
+    width: 100%;
+    /* background-color: rgb(37, 100, 100); */
+    padding-top: 100px;
+
+}
+
+.bannerImage{
+    width: 100%;
+    height: 750px;
+    /* background-color: blue; */
+    background-image: url(../imagens/obiWan.jpg);
+    background-position: top left;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.bannerImage h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: aqua; */
+    width: 100%;
+    text-align: right;
+    padding-right: 390px;
+    font-size: 120px;
+    color: aliceblue;
+    line-height: 100px;
+    cursor: context-menu;
+
+}
+
+.sobre{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    padding: 50px 2%;
+}
+
+.texto{
+    height: 650px;
+    margin-bottom: 20px;
+    width: 28%;
+    background-color: rgba(190, 190, 190, 0.041);
+    padding: 0 2%;
+    border-radius: 8px;
+}
+
+.texto p{
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    color: aliceblue;
+    text-align: left;
+}
+
+.sb{
+    margin-top: 150px;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+.sobre > .image{
+    width: 70%;
+    height: 650px;
+    background-color: green;
+    background-image: url(../imagens/obi.jpg);
+    background-position: center;
+}
+.image{
+    background-position: top left;;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.padawan{
+    margin: 0 auto;
+    width: 80%;
+    /* height: 600px; */
+    /* background-color: rgb(102, 104, 102); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 2%;
+}
+
+.padawan h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    padding: 50px 0;
+    text-transform: uppercase;
+}
+
+.imagens{
+    /* background-color: rgb(78, 78, 78); */
+    width: 90%;
+    /* height: 600px; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.imagens img{
+    /* width: 100% / 3; */
+    height: 310px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.textoPadawan{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+    text-align: center;
+    /* background-color: rgb(54, 54, 199); */
+    padding: 0 2%;
+    color: aliceblue;
+    font-size: 19px;
+}
+
+.mestre{
+    width: 90%;
+    /* height: 700px; */
+    /* background-color: grey; */
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.mestre h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.textoMestre{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 19px;
+    color: aliceblue;
+    padding: 30px 0;
+}
+
+.quiGon{
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(../imagens/mestre.jpg);
+    background-position: top;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(17, 17, 17);
+}
+footer h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    padding: 50px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (max-width:700px){
+    .bannerImage h1{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* background-color: aqua; */
+        width: 100%;
+        text-align: left;
+        padding-right: 60%;
+        font-size: 120px;
+        color: aliceblue;
+        line-height: 100px;
+        cursor: context-menu;
+    
+    }
+    .bannerImage h1{
+        font-size: 70px;
+    }
+
+    .padawan img{
+        width: 100%;
+        height: 100%;    
+}
+
+    .padawan .imagens{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
+
+    .padawan{
+        margin: 0 auto;
+        width: 90%;
+        /* height: 600px; */
+        /* background-color: rgb(102, 104, 102); */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 2%;
+    }
+
+    
+    .textoMestre{
+        width: 90% !important;
+    }
+    .sobre{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 50px 2%;
+    }
+    .sobre .image{
+        width: 90%;
+    }
+
+    .sobre .texto p{
+        text-align: justify;
+    }
+
+    .sobre .texto{
+        
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+}
+
+@media (max-width:1200px){
+    .sobre .texto p{
+        text-align: justify;
+    }
+    .textoMestre, .textoPadawan{
+        width: 100%;
+        text-align: justify;
+    }
+    .sobre{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 50px 2%;
+    }
+    .sobre .image{
+        width: 90%;
+    }
+
+    .sobre .texto{
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+
+
+    .texto{
+        height: 650px;
+        margin-bottom: 20px;
+        width: 38%;
+        background-color: rgba(190, 190, 190, 0.041);
+        padding: 0 2%;
+        border-radius: 8px;
+    }
+    
+    .texto p{
+        
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        color: aliceblue;
+        text-align: left;
+    }
+
+    .textoPadawan{
+        font-size: 18px;
+    }
+
+    .textoMestre{
+        font-size: 18px;
+    }
+
+    .padawan{
+        margin: 0 auto;
+        width: 80%;
+        /* height: 600px; */
+        /* background-color: rgb(102, 104, 102); */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 2%;
+    }
+    
+    .padawan h1{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: aliceblue;
+        padding: 50px 0;
+        text-transform: uppercase;
+    }
+    
+    .imagens{
+        /* background-color: rgb(78, 78, 78); */
+        width: 90%;
+        /* height: 600px; */
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 50px 0;
+    }
+    
+    .imagens img{
+        /* width: 100% / 3; */
+        /* height: 310px; */
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width:500px){
+    .starWars{
+        font-size: 25px;
+        /* background-color: red; */
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    /* .header ul li{
+        background-color: brown;
+    } */
+
+    /* .header ul li a{
+        background-color: aqua;
+    } */
+
+    .header ul{
+        /* background-color: blue; */
+        margin: 0 auto;
+    }
+    .bannerImage{
+        background-position: 7%;
+        height: 600px;
+    }
+}
