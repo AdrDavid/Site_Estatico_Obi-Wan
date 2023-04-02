@@ -130,6 +130,9 @@ h1{
     /* flex-wrap: wrap; */
     padding: 50px 2% 0 2%;
 }
+.sobre h1{
+    width: 100%;
+}
 
 .texto{
     height: 650px;
