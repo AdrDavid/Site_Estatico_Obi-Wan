@@ -128,7 +128,7 @@ h1{
     display: flex;
     justify-content: space-evenly;
     /* flex-wrap: wrap; */
-    padding: 50px 2% 0 2%;
+    padding: 30px 2% 0 2%;
 }
 .sobre h1{
     width: 100%;
